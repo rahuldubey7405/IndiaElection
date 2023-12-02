@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>index form</title>
 <body>
-    <h2>Signup!</h2>
+    <h2>Signup!!!</h2>
     <form action="signup" method="post">
         Username: <input type="text" name="username"><br><br>
         Password: <input type="password" name="password"><br>

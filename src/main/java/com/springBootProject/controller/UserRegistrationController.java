@@ -29,6 +29,6 @@ public class UserRegistrationController {
 		}
 		UserRegistration addRegistrion = registrionService.AddRegistrion(registration);
 
-		return " ";
+		return "registrationSeccess";
 	}
 }
