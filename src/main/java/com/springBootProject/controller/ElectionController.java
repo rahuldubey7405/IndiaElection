@@ -29,12 +29,10 @@ public class ElectionController {
 		signup.setPassword(password);
 
 		Signup addSignup = signupService.AddSignup(signup);
-//		System.out.println("this is signup page project UserName: " + username + "pass " + password);
+		System.out.println("this is signup page project UserName: " + username + "pass " + password);
 
-		
 		return "signupSuccessful";
 	}
-	
 
 	@PostMapping("/login")
 	public String loginPage(@RequestParam("username") String username, @RequestParam("password") String password) {
@@ -54,4 +52,10 @@ public class ElectionController {
 			return "loginError";
 		}
 	}
+
+//	@RequestMapping("/homePage")
+//	public String homePage() {
+//		System.out.println("start Home page");
+//		return "registertion";
+//	}
 }

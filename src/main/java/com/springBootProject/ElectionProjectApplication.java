@@ -9,7 +9,7 @@ public class ElectionProjectApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ElectionProjectApplication.class, args);
 		System.out.println("-----------Start Election Project!!!!---------------");
-		openHomePage();
+//		openHomePage();
 	}
 
 	private static void openHomePage() {
